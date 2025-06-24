@@ -68,3 +68,14 @@ body {
   margin-bottom: 15px;
   font-size: 1rem;
 }
+code {
+  display: block;
+  background-color: #272822;
+  color: #f8f8f2;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 15px 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.95rem;
+  overflow-x: auto;
+}
