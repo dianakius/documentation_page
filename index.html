@@ -59,5 +59,17 @@
         <a class="nav-link" href="#Variables">Variables</a>
       </nav>
     </main>
+    <button id="back-to-top" title="Go to top">↑</button>
+    <script>
+      // Back to Top
+      const topButton = document.getElementById("back-to-top");
+      window.addEventListener("scroll", () => {
+        topButton.style.display = window.scrollY > 300 ? "block" : "none";
+      });
+
+      topButton.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    </script>
   </body>
 </html>
