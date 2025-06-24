@@ -44,3 +44,27 @@ body {
   background-color: #333;
   color: #fff;
 }
+#main-doc {
+  margin-left: 250px;
+  padding: 40px 30px;
+  max-width: 900px;
+}
+
+.main-section {
+  margin-bottom: 60px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 40px;
+}
+
+.main-section header {
+  font-size: 1.8rem;
+  color: #111;
+  margin-bottom: 20px;
+  border-left: 5px solid #333;
+  padding-left: 15px;
+}
+
+.main-section p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
