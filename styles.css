@@ -79,3 +79,8 @@ code {
   font-size: 0.95rem;
   overflow-x: auto;
 }
+li {
+  margin-left: 20px;
+  margin-top: 8px;
+  list-style-type: disc;
+}
